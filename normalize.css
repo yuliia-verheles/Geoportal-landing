@@ -28,6 +28,9 @@ html {
     margin-left: 0;
     padding-left: 0; 
    }
+  p {
+    margin: 0
+   }
   pre {
     font-family: monospace, monospace;
     font-size: 1em;
