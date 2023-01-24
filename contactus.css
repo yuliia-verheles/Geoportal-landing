@@ -1,0 +1,82 @@
+.contactus {
+  background-size: cover;
+  background-image: url("images/imagecontactus.jpg");
+  color: #ffffff;
+}
+
+.contactus-content {
+  display: flex;
+  padding: 100px 20px;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactus-header {
+  text-align: center;
+}
+
+.contactus-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 30px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+}
+
+.contact-info > div {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.field-group {
+  display: flex;
+  gap: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field > *:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.field > input,
+.field > textarea {
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  border: 1px #ffffff solid;
+  border-style: none none solid;
+  color: #ffffff;
+}
+
+.contactus-form button {
+  align-self: end;
+  width: 158px;
+  height: 51px;
+  background: #005fa3;
+  border: none;
+  color: #ffffff;
+}

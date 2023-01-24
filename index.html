@@ -6,28 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geoportal</title>
     <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="carousel.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="aboutus.css" />
+    <link rel="stylesheet" href="contactus.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <div>
+          <div class="font-opensans-normal-700">
             <img src="images/vector.svg" alt="Земна куля" />
             <img src="images/Geoportal.svg" alt="Геопортал" />
           </div>
-          <div>
+          <div class="font-lato-normal-700">
             <ul>
-              <li><a href="main">Головна</a></li>
-              <li><a href="services">Послуги</a></li>
-              <li><a href="aboutus">Про компанію</a></li>
-              <li><a href="contacts">Контакти</a></li>
+              <li><a href="#main">ГОЛОВНА</a></li>
+              <li><a href="#services">ПОСЛУГИ</a></li>
+              <li><a href="#aboutus">ПРО КОМПАНІЮ</a></li>
+              <li><a href="#contacts">КОНТАКТИ</a></li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
     <div class="slider">
+      <a name="main"></a>
       <input type="radio" name="r" checked id="r0" />
       <input type="radio" name="r" id="r1" />
       <input type="radio" name="r" id="r2" />
@@ -37,42 +44,50 @@
       <div class="slides">
         <div class="slide s1">
           <div class="container slide-content">
-            <h1>Ex ad ullamco dolore aliqua duis excepteur ipsum 1</h1>
-            <p>
+            <h1 class="font-opensans-normal-700">
+              Ex ad ullamco dolore aliqua duis excepteur ipsum 1
+            </h1>
+            <p class="font-lato-normal-500">
               Ipsum laboris laboris elit sint dolore proident ipsum. Eiusmod
               nisi labore cillum ad consectetur.
             </p>
-            <button>Читати далі</button>
+            <button class="font-lato-normal-400">Читати далі</button>
           </div>
         </div>
         <div class="slide s2">
           <div class="container slide-content">
-            <h1>Ex ad ullamco dolore aliqua duis excepteur ipsum 2</h1>
-            <p>
+            <h1 class="font-opensans-normal-700">
+              Ex ad ullamco dolore aliqua duis excepteur ipsum 2
+            </h1>
+            <p class="font-lato-normal-500">
               Ipsum laboris laboris elit sint dolore proident ipsum. Eiusmod
               nisi labore cillum ad consectetur.
             </p>
-            <button>Читати далі</button>
+            <button class="font-lato-normal-400">Читати далі</button>
           </div>
         </div>
         <div class="slide s3">
           <div class="container slide-content">
-            <h1>Ex ad ullamco dolore aliqua duis excepteur ipsum 3</h1>
-            <p>
+            <h1 class="font-opensans-normal-700">
+              Ex ad ullamco dolore aliqua duis excepteur ipsum 3
+            </h1>
+            <p class="font-lato-normal-500">
               Ipsum laboris laboris elit sint dolore proident ipsum. Eiusmod
               nisi labore cillum ad consectetur.
             </p>
-            <button>Читати далі</button>
+            <button class="font-lato-normal-400">Читати далі</button>
           </div>
         </div>
         <div class="slide s4">
           <div class="container slide-content">
-            <h1>Ex ad ullamco dolore aliqua duis excepteur ipsum 4</h1>
-            <p>
+            <h1 class="font-opensans-normal-700">
+              Ex ad ullamco dolore aliqua duis excepteur ipsum 4
+            </h1>
+            <p class="font-lato-normal-500">
               Ipsum laboris laboris elit sint dolore proident ipsum. Eiusmod
               nisi labore cillum ad consectetur.
             </p>
-            <button>Читати далі</button>
+            <button class="font-lato-normal-400">Читати далі</button>
           </div>
         </div>
       </div>
@@ -91,13 +106,16 @@
         </div>
       </div>
     </div>
-    <div class="services">
+    <div class="services background-gray pad-140-20">
+      <a name="services"></a>
       <div class="container">
         <div>
-          <p>Набори даних</p>
-          <h2>Відкриті дані</h2>
+          <p class="font-lato-normal-900 font-24-33-BDBDBD">Набори даних</p>
+          <h2 class="font-opensans-normal-700 font-48-120-333333">
+            Відкриті дані
+          </h2>
         </div>
-        <div class="cards">
+        <div class="cards font-lato-normal-900 font-24-30-center">
           <div>Агропромисловий розвиток</div>
           <div>Культура</div>
           <div>Туризм</div>
@@ -107,12 +125,15 @@
         </div>
       </div>
     </div>
-    <div class="container kakojtoclass">
+    <div class="container pad-140-20">
+      <a name="aboutus"></a>
       <div class="aboutus">
         <div>
-          <p>Про нас</p>
-          <h2>Lorem Lorem Ipsum</h2>
-          <p>
+          <p class="font-lato-normal-900 font-24-33-BDBDBD">Про нас</p>
+          <h2 class="font-opensans-normal-700 font-48-120-333333">
+            Lorem Lorem Ipsum
+          </h2>
+          <p class="font-lato-normal-300 font-18-29-000000">
             Lorem Ipsum - це текст-"риба", що використовується в друкарстві та
             дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI
             сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній
@@ -128,8 +149,8 @@
               <img src="images/building1.svg" alt="будівля" />
             </div>
             <div>
-              <p>90</p>
-              <p>Об'єктів</p>
+              <p class="font-lato-normal-900 font-55-100-000000">90</p>
+              <p class="font-lato-normal-700 font-14-18-000000">Об'єктів</p>
             </div>
           </div>
           <div class="card">
@@ -137,8 +158,8 @@
               <img src="images/building1.svg" alt="будівля" />
             </div>
             <div>
-              <p>90</p>
-              <p>Проєктів</p>
+              <p class="font-lato-normal-900 font-55-100-000000">90</p>
+              <p class="font-lato-normal-700 font-14-18-000000">Проєктів</p>
             </div>
           </div>
           <div class="card">
@@ -146,8 +167,8 @@
               <img src="images/building1.svg" alt="будівля" />
             </div>
             <div>
-              <p>90</p>
-              <p>Ділянок</p>
+              <p class="font-lato-normal-900 font-55-100-000000">90</p>
+              <p class="font-lato-normal-700 font-14-18-000000">Ділянок</p>
             </div>
           </div>
           <div class="card">
@@ -155,28 +176,36 @@
               <img src="images/building1-1.svg" alt="будівля" />
             </div>
             <div>
-              <p>90</p>
-              <p>Конструкцій</p>
+              <p class="font-lato-normal-900 font-55-100-FFFFFF">90</p>
+              <p class="font-lato-normal-700 font-14-18-FFFFFF">Конструкцій</p>
             </div>
           </div>
         </div>
       </div>
       <div class="tabs">
-        <div class="tabs-nav">
-          <label for="tab1" class="tab-button tab-button-active"
-            >Lorem Ipsum 1</label
+        <div class="tabs-nav font-lato-normal-400">
+          <label
+            for="tab1"
+            class="tab-button tab-button-active font-16-23-center-FFFFFF"
           >
-          <label for="tab2" class="tab-button tab-button-inactive"
-            >Lorem Ipsum 2</label
+            Lorem Ipsum 1
+          </label>
+          <label
+            for="tab2"
+            class="tab-button tab-button-inactive font-16-23-center-000000"
           >
+            Lorem Ipsum 2
+          </label>
         </div>
         <div class="tabs-content">
           <input type="radio" checked name="tab" id="tab1" />
           <div class="tab tab1">
-            <h2>Lorem Ipsum 1</h2>
+            <h2 class="font-lato-normal-900 font-48-120-FFFFFF">
+              Lorem Ipsum 1
+            </h2>
             <div>
               <img src="images/building2.svg" alt="будівля" />
-              <p>
+              <p class="font-lato-normal-400 font-18-29-FFFFFF">
                 Lorem Ipsum - це текст-"риба", що використовується в друкарстві
                 та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з
                 XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та
@@ -190,10 +219,12 @@
           </div>
           <input type="radio" name="tab" id="tab2" />
           <div class="tab tab2">
-            <h2>Lorem Ipsum 2</h2>
+            <h2 class="font-lato-normal-900 font-48-120-FFFFFF">
+              Lorem Ipsum 2
+            </h2>
             <div>
               <img src="images/building2.svg" alt="будівля" />
-              <p>
+              <p class="font-lato-normal-400 font-18-29-FFFFFF">
                 Lorem Ipsum - це текст-"риба", що використовується в друкарстві
                 та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з
                 XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та
@@ -208,14 +239,19 @@
         </div>
       </div>
     </div>
-    <div class="contactus">
+    <div class="contactus background-gray">
+      <a name="contacts"></a>
       <div class="container contactus-content">
         <div class="contactus-header">
-          <h2>Зв’язатися з нами</h2>
-          <p>У вас залишились питання? Напишіть нам.</p>
+          <h2 class="font-lato-normal-900 font-48-67-FFFFFF">
+            Зв’язатися з нами
+          </h2>
+          <p class="font-lato-normal-400 font-24-30-center">
+            У вас залишились питання? Напишіть нам.
+          </p>
         </div>
-        <div class="contactus-main">
-          <div class="contact-info">
+        <div class="contactus-main font-lato-normal-400">
+          <div class="contact-info font-18-29-FFFFFF">
             <div>
               <div class="icon">
                 <img src="images/placeholder.svg" alt="pointer" />
@@ -235,7 +271,7 @@
               <p>order@test.ua</p>
             </div>
           </div>
-          <form class="contactus-form">
+          <form class="contactus-form font-16-22-FFFFFF">
             <div class="field-group">
               <div class="field">
                 <label for="name">Ім'я</label>
@@ -281,7 +317,7 @@
       </div>
     </div>
     <footer>
-      <div class="container">
+      <div class="container font-lato-normal-400 font-14-19-000000">
         <p>2020 © Всі права захищені.</p>
         <p>Розроблено: Geoportal</p>
       </div>

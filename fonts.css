@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+    url("fonts/Open_Sans/OpenSans-Bold.ttf");
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato/Lato-Black.ttf");
+  font-display: swap;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato/Lato-Bold.ttf");
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato/Lato-Regular.ttf");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato/Lato-Light.ttf");
+  font-display: swap;
+  font-weight: 300;
+}
+
+.font-opensans-normal-700 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.font-lato-normal-900 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+}
+
+.font-lato-normal-700 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.font-lato-normal-500 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.font-lato-normal-400 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.font-lato-normal-300 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.font-24-33-BDBDBD {
+  font-size: 24px;
+  line-height: 33px;
+  color: #bdbdbd;
+}
+
+.font-48-120-333333 {
+  font-size: 48px;
+  line-height: 120%;
+  color: #333333;
+}
+
+.font-48-120-FFFFFF {
+  font-size: 48px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.font-48-67-FFFFFF {
+  font-size: 48px;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+.font-24-30-center {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.font-18-29-000000 {
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.font-18-29-FFFFFF {
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.font-55-100-000000 {
+  font-size: 55px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.font-14-18-000000 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.font-55-100-FFFFFF {
+  font-size: 55px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.font-14-18-FFFFFF {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.font-14-19-000000 {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.font-16-23-center-FFFFFF {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.font-16-23-center-000000 {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+}
+
+.font-16-22-FFFFFF {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
