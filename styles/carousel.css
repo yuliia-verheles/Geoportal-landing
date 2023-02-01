@@ -97,6 +97,7 @@
 }
 
 .slide-content > p {
+  font-weight: 500;
   font-size: 24px;
   line-height: 140%;
   letter-spacing: 0.02em;
@@ -106,6 +107,7 @@
   padding: 16px 32px;
   border: none;
   background: #005fa3;
+  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -123,19 +125,19 @@
 }
 
 .s1 {
-  background-image: url("images/image1.jpg");
+  background-image: url("../images/image1.jpg");
 }
 
 .s2 {
-  background-image: url("images/image2.jpg");
+  background-image: url("../images/image2.jpg");
 }
 
 .s3 {
-  background-image: url("images/image3.jpg");
+  background-image: url("../images/image3.jpg");
 }
 
 .s4 {
-  background-image: url("images/image4.jpg");
+  background-image: url("../images/image4.jpg");
 }
 
 #r0:checked ~ .slides {

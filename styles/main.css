@@ -1,0 +1,44 @@
+body {
+  font-family: "Lato";
+  font-style: normal;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0.4em 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.container {
+  min-width: 375px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  border: sandybrown solid 1px;
+}
+
+.wrapper {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+input[name="r"],
+input[name="tab"] {
+  display: none;
+}
+
+footer > .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}

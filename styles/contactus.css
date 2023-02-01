@@ -1,6 +1,7 @@
 .contactus {
   background-size: cover;
-  background-image: url("images/imagecontactus.jpg");
+  background-image: url("../images/imagecontactus.jpg");
+  background-color: #ebebeb;
   color: #ffffff;
 }
 
@@ -16,19 +17,35 @@
   text-align: center;
 }
 
+.contactus-header > h2 {
+  font-size: 48px;
+  line-height: 67px;
+}
+
+.contactus-header > p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
 .contactus-main {
   width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
   display: flex;
   justify-content: space-evenly;
   gap: 60px;
 }
 
 .contact-info {
+  min-width: 184px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
   gap: 30px;
 }
+
 .icon {
   display: flex;
   justify-content: center;
