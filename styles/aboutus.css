@@ -1,0 +1,147 @@
+.aboutus {
+  padding-bottom: 140px;
+  display: flex;
+  gap: 130px;
+}
+
+.aboutus:first-child {
+  align-items: center;
+}
+
+.aboutus > div:first-child > p:first-child {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #bdbdbd;
+}
+
+.aboutus h2 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #333333;
+}
+
+.aboutus > div:first-child > p:last-child {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.cards {
+  display: grid;
+  gap: 30px;
+}
+
+.aboutus .cards {
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  width: 270px;
+  height: 270px;
+  padding: 12px;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.card > div:last-child > p:first-child {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card > div:last-child > p:last-child {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.card:last-child {
+  background-color: #005fa3;
+}
+
+.card:last-child > div:last-child > p {
+  color: #ffffff !important;
+}
+
+.tabs {
+  padding: 68px 20px 96px;
+  width: 100%;
+  background-image: url("../images/imageaboutus.jpg");
+  color: #ebebeb;
+}
+
+.tabs-nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.tab-button {
+  width: 225px;
+  height: 60px;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+
+.tab-button-active {
+  background-color: #005fa3;
+}
+
+.tab-button-inactive {
+  background-color: #ebebeb;
+  color: black;
+}
+
+.tab {
+  margin: 0 auto;
+  max-width: 870px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab > h2 {
+  margin: 40px;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+
+.tab p {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.tab > div {
+  display: flex;
+  gap: 130px;
+}
+
+.tab1,
+.tab2 {
+  display: none;
+}
+
+#tab1:checked ~ .tab1 {
+  display: flex;
+}
+
+#tab2:checked ~ .tab2 {
+  display: flex;
+}

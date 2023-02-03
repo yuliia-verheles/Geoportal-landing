@@ -1,0 +1,242 @@
+@media (max-width: 1240px) {
+  .container {
+    border: chartreuse solid 1px;
+  }
+
+  .navigation ul {
+    gap: 24px;
+  }
+
+  .wrapper {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .services h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .services .cards {
+    font-size: 24px;
+    line-height: 30px;
+    gap: 36px;
+    align-items: center;
+  }
+
+  .services .cards > * {
+    width: 100%;
+    height: 270px;
+    padding-right: 36px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+  }
+
+  .aboutus {
+    padding-bottom: 70px;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .aboutus h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .aboutus .cards {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px;
+  }
+
+  .aboutus .card {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    border: rgb(0, 238, 255) solid 1px;
+  }
+
+  .burger-btn {
+    display: block;
+  }
+  .menu {
+    display: block;
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100vh;
+    width: 0;
+    background-color: #000000a2;
+    padding: 100px 0;
+    overflow: hidden;
+    transition: width 1s ease-in-out;
+  }
+
+  .burger-active ~ .menu {
+    width: 300px;
+  }
+  .menu > ul {
+    color: white;
+    flex-direction: column;
+    margin: 0 20px;
+    min-width: 200px;
+  }
+
+  .menu a {
+    font-size: 20px;
+  }
+
+  .slide-content {
+    padding-top: 104px;
+    gap: 12px;
+  }
+
+  .slide-content > h1 {
+    font-size: 32px;
+  }
+
+  .slide-content > p {
+    font-size: 24px;
+    text-overflow: ellipsis;
+  }
+
+  .arrows > button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .controls {
+    bottom: 12px;
+  }
+
+  .services .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .aboutus .cards {
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+  }
+
+  .aboutus .card {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tab img {
+    display: none;
+  }
+
+  .field-group {
+    flex-direction: column;
+  }
+
+  .contactus-main {
+    gap: 24px;
+  }
+
+  .contact-info > div {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navigation > div img {
+    height: 36px;
+  }
+
+  .slider {
+    height: 100vh;
+  }
+
+  .controls > .container {
+    justify-content: center;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  .slide-content {
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 80px 20px;
+  }
+
+  .services {
+    text-align: center;
+  }
+
+  .services .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .services .cards > div {
+    padding: 24px;
+    height: auto;
+  }
+  .aboutus .cards {
+    gap: 12px;
+  }
+
+  .aboutus .card {
+    width: 100%;
+    height: 136px;
+  }
+
+  .aboutus .card img {
+    width: 56px;
+  }
+
+  .tabs {
+    padding: 20px;
+  }
+
+  .tabs-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-button {
+    width: 100%;
+  }
+
+  .tab > h2 {
+    font-size: 36px;
+    margin: 0.4em auto;
+  }
+
+  .contactus-content {
+    padding: 20px;
+  }
+
+  .contactus-main {
+    flex-direction: column-reverse;
+  }
+
+  .contactus-header > h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .contactus-header > p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contact-info {
+    align-items: center;
+  }
+
+  .contactus-form button {
+    width: 100%;
+  }
+}

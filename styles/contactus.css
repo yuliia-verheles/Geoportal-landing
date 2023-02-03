@@ -1,0 +1,99 @@
+.contactus {
+  background-size: cover;
+  background-image: url("../images/imagecontactus.jpg");
+  background-color: #ebebeb;
+  color: #ffffff;
+}
+
+.contactus-content {
+  display: flex;
+  padding: 100px 20px;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactus-header {
+  text-align: center;
+}
+
+.contactus-header > h2 {
+  font-size: 48px;
+  line-height: 67px;
+}
+
+.contactus-header > p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.contactus-main {
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+.contact-info {
+  min-width: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+}
+
+.contact-info > div {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.field-group {
+  display: flex;
+  gap: 32px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field > *:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.field > input,
+.field > textarea {
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  border: 1px #ffffff solid;
+  border-style: none none solid;
+  color: #ffffff;
+}
+
+.contactus-form button {
+  align-self: end;
+  width: 158px;
+  height: 51px;
+  background: #005fa3;
+  border: none;
+  color: #ffffff;
+}
